@@ -1,5 +1,11 @@
 # Calculator
 
+##### Author information:
+___
+* [link for GitHub profile from Laura Brcina](https://github.com/laurabrcina/bsd22_brcina_laura.git)
+* [link for Campus02](https://www.campus02.at)
+___
+
 **What is the job of a calculator?**
 *  The main task of a calculator is the calculation of numerical tasks.
 *  Most calculators use small push buttons to enter data.
