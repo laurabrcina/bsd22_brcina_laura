@@ -89,4 +89,5 @@ This example is a simple programmed pocket calculator. However, a Java programme
 * https://panjutorials.de/tutorials/java-tutorial-programmieren-lernen-fuer-anfaenger/lektionen/simpler-taschenrechner-in-java/
 ___
 ##### Exercises:
-* [Exercise1](exercise1.md)
+* [Exercise 1](exercise1.md)
+* [Exercise 2](exercise2.md)
