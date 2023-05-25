@@ -1,2 +1,5 @@
-*html
-*pdf
+*.html
+*.pdf
+target
+.idea
+.DS_Store
