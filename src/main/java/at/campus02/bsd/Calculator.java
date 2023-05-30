@@ -25,7 +25,17 @@ public class Calculator {
     }
 
     public int factorial(int number){
-       int result = 0;
+        if (number < 0) {
+            return 0;
+        }
+        if (number == 0){
+            return 1;
+        }
+        int result = 1;
+
+        for (int i = 1; i <= number; i++){
+            result = result * i;
+        }
        return result;
     }
 }
