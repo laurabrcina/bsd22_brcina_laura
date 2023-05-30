@@ -23,5 +23,10 @@ public class Calculator {
         double result= number1*number2;
         return result;
     }
+
+    public int factorial(int number){
+       int result = 0;
+       return result;
+    }
 }
 

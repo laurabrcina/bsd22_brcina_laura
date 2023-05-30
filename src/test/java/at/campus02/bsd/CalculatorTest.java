@@ -109,5 +109,23 @@ public class CalculatorTest {
         assertFalse(20 == calculator.multiply(5,10));
     }
 
+    @DisplayName("first test of factorial() method")
+    @Test
+    void testFactorial1(){
+        assertEquals(120, calculator.factorial(5));
+    }
+
+    @DisplayName("second test of factorial() method")
+    @Test
+    void testFactorial2(){
+        assertTrue(0 == calculator.factorial(-2));
+    }
+
+    @DisplayName("third test of factorial() method")
+    @Test
+    void testFactorial3(){
+        assertTrue(1 == calculator.factorial(0));
+    }
+
 }
 
