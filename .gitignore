@@ -3,3 +3,6 @@
 target
 .idea
 .DS_Store
+logs
+log4j2.xml
+*.log
