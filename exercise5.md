@@ -14,7 +14,7 @@ Die Meldung mit dem Level Info wird nicht in der Konsole ausgegeben.
 
 * Template
 
-Es existiert ein Template für die Konfiguratonsdatei der log4j2 api. Diese heißt [log4j2.xml.template](/Users/laurabrcina/bsd22_brcina_laura/src/main/resources/log4j2.xml.template)
+Es existiert ein Template für die Konfiguratonsdatei der log4j2 api. Diese heißt [log4j2.xml.template](src/main/resources/log4j2.xml.template)
 und beschreibt, dass die logs in der Datei logs/myapp.log gespeichert werden sollen.
 
 Inhalt der log-Datei:
@@ -23,7 +23,7 @@ Inhalt der log-Datei:
 
 ___ 
 
-* Warum werden Logging Bibliotheken verwendet?
+* ### Warum werden Logging Bibliotheken verwendet?
 
 Eine Protokollierungsbibliothek (oder Protokollierungsframework) ist Code, den Sie in Ihre Anwendung einbetten, um Protokollereignisse zu erstellen und zu verwalten. Protokollierungsbibliotheken stellen APIs zum konsistenten Erstellen, Strukturieren, Formatieren und Übertragen von Protokollereignissen bereit. Wie Agenten werden sie verwendet, um Ereignisse von Ihrer Anwendung an ein Ziel zu senden. Der Unterschied besteht darin, dass Bibliotheken im Gegensatz zu Agenten mit Ihrer Anwendung und nicht getrennt davon ausgeführt werden.
 
@@ -32,7 +32,7 @@ Die Protokollierung ist wichtig, um das Verhalten der Anwendung zu verstehen, un
 System.out.print() funktioniert während der Codierungsphase gut, aber wenn eine Anwendung in einer Produktionsumgebung live ist, ist eine ordnungsgemäße Nachverfolgung und Überwachung erforderlich.
 ___
 
-* Welche Loglevel gibt es in Log4J und was hat es damit auf sich?
+* ### Welche Loglevel gibt es in Log4J und was hat es damit auf sich?
 
 ALLE – Alle Levels, einschließlich benutzerdefinierter Levels
 
@@ -51,7 +51,7 @@ AUS – Der höchstmögliche Rang und soll die Protokollierung deaktivieren.
 TRACE – Bezeichnet detailliertere Informationsereignisse als DEBUG.
 ___
 
-* Was für Konfigurationsmöglichkeiten bietet Ihnen log4J?
+* ### Was für Konfigurationsmöglichkeiten bietet Ihnen log4J?
 
 Log4j verfügt über die Möglichkeit, sich während der Initialisierung automatisch selbst zu konfigurieren.
 
@@ -60,6 +60,6 @@ Es gibt drei Arten, Log4j zu konfigurieren: mittels einer Properties- oder einer
 Die Konfigurationsdateien könen manuell gechrieben werden und dort das Format der logs festgelegt werden, sowie die Ausgabe in eine Datei.
 ___
 
-Screenshot gitstatus:
+### Screenshot gitstatus:
 
 ![](resources/images/ex5_4.png)
