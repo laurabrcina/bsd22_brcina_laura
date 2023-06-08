@@ -102,4 +102,4 @@ ___
 * [Exercise 5](exercise5.md)
 
 ___
-* [Template](/Users/laurabrcina/bsd22_brcina_laura/src/main/resources/log4j2.xml.template)
+* [Template](src/main/resources/log4j2.xml.template)
