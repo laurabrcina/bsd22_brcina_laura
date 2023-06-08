@@ -99,3 +99,7 @@ ___
 * [Exercise 2](exercise2.md)
 * [Exercise 3](exercise3.md)
 * [Exercise 4](exercise4.md)
+* [Exercise 5](exercise5.md)
+
+___
+* [Template](/Users/laurabrcina/bsd22_brcina_laura/src/main/resources/log4j2.xml.template)

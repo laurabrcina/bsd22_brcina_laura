@@ -70,8 +70,7 @@ public class CalculatorTest {
     @DisplayName("third test of divide() method")
     @Test
     void testDivide3(){
-        assertFalse(0 == calculator.divide(2,0));
-    }
+        assertThrows(ArithmeticException.class,()->{calculator.divide(2,0);});}
 
     @DisplayName("fourth test of divide() method")
     @Test
