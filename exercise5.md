@@ -31,6 +31,7 @@ Die Protokollierung ist wichtig, um das Verhalten der Anwendung zu verstehen, un
 
 System.out.print() funktioniert während der Codierungsphase gut, aber wenn eine Anwendung in einer Produktionsumgebung live ist, ist eine ordnungsgemäße Nachverfolgung und Überwachung erforderlich.
 ___
+
 * Welche Loglevel gibt es in Log4J und was hat es damit auf sich?
 
 ALLE – Alle Levels, einschließlich benutzerdefinierter Levels
@@ -49,6 +50,7 @@ AUS – Der höchstmögliche Rang und soll die Protokollierung deaktivieren.
 
 TRACE – Bezeichnet detailliertere Informationsereignisse als DEBUG.
 ___
+
 * Was für Konfigurationsmöglichkeiten bietet Ihnen log4J?
 
 Log4j verfügt über die Möglichkeit, sich während der Initialisierung automatisch selbst zu konfigurieren.
@@ -57,6 +59,7 @@ Es gibt drei Arten, Log4j zu konfigurieren: mittels einer Properties- oder einer
 
 Die Konfigurationsdateien könen manuell gechrieben werden und dort das Format der logs festgelegt werden, sowie die Ausgabe in eine Datei.
 ___
+
 Screenshot gitstatus:
 
 ![](resources/images/ex5_4.png)
