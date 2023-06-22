@@ -100,6 +100,8 @@ ___
 * [Exercise 3](exercise3.md)
 * [Exercise 4](exercise4.md)
 * [Exercise 5](exercise5.md)
+* [Exercise 6](exercise6.md)
+
 
 ___
 * [Template](src/main/resources/log4j2.xml.template)
