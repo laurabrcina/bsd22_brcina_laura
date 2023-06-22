@@ -1,6 +1,7 @@
 #### Was ist notwendig um Maven Site Dokumentaton zu generieren?
 Man benötigt eine notwendige Ordnerstruktur – siehe Abbildung:
 ![](resources/images/ex6_0.png)
+
 Generiert wird die Dokumenation mit dem Befehl mvn site.
 
 #### Welche unterschiedlichen Aspekte, Konfigurationen, Informationen, usw. werden in site.xml bzw. pom.xml konfiguriert? 
